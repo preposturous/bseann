@@ -40,7 +40,7 @@ def searchdata(searchstr,df):
 
 now = datetime.now()
 today_string = now.strftime("%Y%m%d")
-yesterday_string=str(int(today_string)-2)
+yesterday_string=str(int(today_string)-1)
 
 
 fromdate=yesterday_string
